@@ -6,6 +6,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.TouchAction;
@@ -55,7 +56,8 @@ public class LearnTouchActions001 {
 						.moveTo(PointOption.point(endX, endY))
 						.release()
 						.perform();
-						
+				
+
 						
 						
 						
